@@ -27,8 +27,8 @@ My research interest inlucdes <strong>Computer Vision</strong> and <strong>Multi
 
 
 # 🔥 News
-- *2025.02*: &nbsp;🎉🎉 HCoG is accepted by CVPR 2025!
-- *2024.02*: &nbsp;🎉🎉 Diff-BGM is accepted by CVPR 2024!
+- *2025.02*: &nbsp;🎉🎉 Our HCoG is accepted by CVPR 2025!
+- *2024.02*: &nbsp;🎉🎉 Our Diff-BGM is accepted by CVPR 2024!
 
 # 📝 Publications 
 
