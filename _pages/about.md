@@ -73,7 +73,7 @@ Sizhe Li, **Yiming Qin**, Minghang Zheng, Xin Jin, Yang Liu
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="images/BAIR_Logo.png" alt="BAIR Logo" width="80" style="margin-right: 20px;">
   <div>
-    <strong><a href="#">Berkeley AI Research (BAIR)</a></strong><br>
+    <strong><a href="https://bair.berkeley.edu/">Berkeley AI Research (BAIR)</a></strong><br>
     <em>2025.01 - Present</em><br>
     <strong>Research Intern</strong><br>
     Research Advisor: <a href="https://people.eecs.berkeley.edu/~xdwang/">Xudong Wang</a><br>
@@ -85,7 +85,7 @@ Sizhe Li, **Yiming Qin**, Minghang Zheng, Xin Jin, Yang Liu
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="images/Berkeley.png" alt="UC Berkeley Logo" width="80" style="margin-right: 20px;">
   <div>
-    <strong><a href="#">University of California, Berkeley</a></strong><br>
+    <strong><a href="https://www.berkeley.edu/">University of California, Berkeley</a></strong><br>
     <em>2025.01 - Present</em><br>
     <strong>International Student</strong>
   </div>
@@ -97,7 +97,7 @@ Sizhe Li, **Yiming Qin**, Minghang Zheng, Xin Jin, Yang Liu
   <div>
     <strong><a href="https://english.pku.edu.cn/">Peking University</a></strong><br>
     <em>2022.09 - Present</em><br>
-    <strong>Undergraduate Student & Research Intern</strong><br>
+    <strong>Undergraduate Student</strong><br>
     Research Advisor: <a href="http://www.csyangliu.com/">Yang Liu</a><br>
     Academic Advisor: <a href="https://baoquanchen.info/">Baoquan Chen</a>
   </div>
