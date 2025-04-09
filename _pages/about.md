@@ -69,4 +69,36 @@ Sizhe Li, **Yiming Qin**, Minghang Zheng, Xin Jin, Yang Liu
 - *2022* Peking University Freshman Scholarship.
 
 # 📖 Educations
-- *2022.08 - Present*, Peking University.
+<!-- Berkeley AI Research -->
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="BAIR_Logo.png" alt="BAIR Logo" width="80" style="margin-right: 20px;">
+  <div>
+    <strong><a href="#">Berkeley AI Research</a></strong><br>
+    <em>2025.01 - Present</em><br>
+    <strong>Research Intern</strong><br>
+    Research Advisor: <a href="https://people.eecs.berkeley.edu/~xdwang/">Xudong Wang</a><br>
+    Academic Advisor: <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a>
+  </div>
+</div>
+
+<!-- UC Berkeley -->
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="Berkeley.png" alt="UC Berkeley Logo" width="80" style="margin-right: 20px;">
+  <div>
+    <strong><a href="#">University of California, Berkeley</a></strong><br>
+    <em>2025.01 - Present</em><br>
+    <strong>International Student</strong>
+  </div>
+</div>
+
+<!-- Peking University -->
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="PKU.png" alt="Peking University Logo" width="80" style="margin-right: 20px;">
+  <div>
+    <strong><a href="https://english.pku.edu.cn/">Peking University</a></strong><br>
+    <em>2022.09 - Present</em><br>
+    <strong>Undergraduate Student & Research Intern</strong><br>
+    Research Advisor: <a href="http://www.csyangliu.com/">Yang Liu</a><br>
+    Academic Advisor: <a href="https://baoquanchen.info/">Baoquan Chen</a>
+  </div>
+</div>
