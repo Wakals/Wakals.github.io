@@ -19,7 +19,7 @@ redirect_from:
 
 I am currently a third-year undergraduate student at <a href='https://zhi-class.ai/'>Zhi Class</a> of <a href='https://english.pku.edu.cn/'>Peking University (PKU)</a>, and I am also doing a research internship at <a href='https://www.icst.pku.edu.cn/index.htm'>Wangxuan Institute of Computer Technology, Peking University</a>, advised by Prof.<a href='http://www.csyangliu.com/'>Yang Liu</a>.
 
-My research tenet is <em>shut up and calculate</em>.  My life tenet is <em>more objective and less prejudiced</em>.
+My research tenet is <em>Shut up and Calculate</em>.  My life tenet is <em>Be More Objective and Less Prejudiced</em>.
 
 My research interest inlucdes <strong>Computer Vision</strong> and <strong>Multimodal Learning</strong>, and especially focuses on <strong>Generative Model</strong> and <strong>3D Vision</strong>. If you have interesting ideas or questions, feel free to contact me! 📧
 
