@@ -19,6 +19,8 @@ redirect_from:
 
 I am currently a third-year undergraduate student at <a href='https://zhi-class.ai/'>Zhi Class</a> of <a href='https://english.pku.edu.cn/'>Peking University (PKU)</a>, and I am also doing a research internship at <a href='https://www.icst.pku.edu.cn/index.htm'>Wangxuan Institute of Computer Technology, Peking University</a>, advised by Prof.<a href='http://www.csyangliu.com/'>Yang Liu</a>.
 
+My research tenet is <em>shut up and calculate</em>.  My life tenet is <em>more objective and less prejudiced</em>.
+
 My research interest inlucdes <strong>Computer Vision</strong> and <strong>Multimodal Learning</strong>, and especially focuses on <strong>Generative Model</strong> and <strong>3D Vision</strong>. If you have interesting ideas or questions, feel free to contact me! 📧
 
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=KK2hp8kAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span><<strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=KK2hp8kAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
