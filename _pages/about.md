@@ -73,7 +73,7 @@ Sizhe Li, **Yiming Qin**, Minghang Zheng, Xin Jin, Yang Liu
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="BAIR_Logo.png" alt="BAIR Logo" width="80" style="margin-right: 20px;">
   <div>
-    <strong><a href="#">Berkeley AI Research</a></strong><br>
+    <strong><a href="#">Berkeley AI Research (BAIR)</a></strong><br>
     <em>2025.01 - Present</em><br>
     <strong>Research Intern</strong><br>
     Research Advisor: <a href="https://people.eecs.berkeley.edu/~xdwang/">Xudong Wang</a><br>
