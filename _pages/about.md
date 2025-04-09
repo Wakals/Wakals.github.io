@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a third-year undergraduate student at <a href='https://zhi-class.ai/'>Zhi Class</a> of <a href='https://english.pku.edu.cn/'>Peking University (PKU)</a>, and I am also doing a research internship at <a href='https://www.icst.pku.edu.cn/index.htm'>Wangxuan Institute of Computer Technology, Peking University</a>, advised by Prof.<a href='http://www.csyangliu.com/'>Yang Liu</a>.
+I am currently a third-year undergraduate student at <a href='https://zhi-class.ai/'>Zhi Class</a> of <a href='https://english.pku.edu.cn/'>Peking University (PKU)</a>, and I am also doing a research internship at <a href='https://www.icst.pku.edu.cn/index.htm'>Wangxuan Institute of Computer Technology (WICT)</a>, advised by Prof.<a href='http://www.csyangliu.com/'>Yang Liu</a>, and to collaborate with the great seniors <a href='https://sizhelee.github.io/'>Sizhe Lee</a> and Zhu Xu.
 
 My research tenet is <em>Shut up and Calculate</em>.  My life tenet is <em>Be More Objective and Less Prejudiced</em>.
 
