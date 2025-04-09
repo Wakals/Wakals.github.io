@@ -71,7 +71,7 @@ Sizhe Li, **Yiming Qin**, Minghang Zheng, Xin Jin, Yang Liu
 # 📖 Educations
 <!-- Berkeley AI Research -->
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="BAIR_Logo.png" alt="BAIR Logo" width="80" style="margin-right: 20px;">
+  <img src="images/BAIR_Logo.png" alt="BAIR Logo" width="80" style="margin-right: 20px;">
   <div>
     <strong><a href="#">Berkeley AI Research (BAIR)</a></strong><br>
     <em>2025.01 - Present</em><br>
@@ -83,7 +83,7 @@ Sizhe Li, **Yiming Qin**, Minghang Zheng, Xin Jin, Yang Liu
 
 <!-- UC Berkeley -->
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="Berkeley.png" alt="UC Berkeley Logo" width="80" style="margin-right: 20px;">
+  <img src="images/Berkeley.png" alt="UC Berkeley Logo" width="80" style="margin-right: 20px;">
   <div>
     <strong><a href="#">University of California, Berkeley</a></strong><br>
     <em>2025.01 - Present</em><br>
@@ -93,7 +93,7 @@ Sizhe Li, **Yiming Qin**, Minghang Zheng, Xin Jin, Yang Liu
 
 <!-- Peking University -->
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="PKU.png" alt="Peking University Logo" width="80" style="margin-right: 20px;">
+  <img src="images/PKU.png" alt="Peking University Logo" width="80" style="margin-right: 20px;">
   <div>
     <strong><a href="https://english.pku.edu.cn/">Peking University</a></strong><br>
     <em>2022.09 - Present</em><br>
