@@ -32,7 +32,7 @@ My research interest inlucdes <strong>Computer Vision</strong> and <strong>Multi
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/Diff-BGM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/HCoG.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Apply Hierarchical-Chain-of-Generation to Complex Attributes Text-to-3D Generation](https://hierarchical-chain-of-generation.github.io/)
