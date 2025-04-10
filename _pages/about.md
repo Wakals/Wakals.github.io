@@ -102,3 +102,9 @@ Sizhe Li, **Yiming Qin**, Minghang Zheng, Xin Jin, Yang Liu
     Academic Advisor: <a href="https://baoquanchen.info/">Baoquan Chen</a>
   </div>
 </div>
+
+# 💣 Counter-Strike Highlights
+
+<a href="/videos/CSGO/dust2_5k.mp4" target="_blank">
+  <img src="/images/me.png" alt="Project Video" style="width: 100%; max-width: 600px; border-radius: 10px; cursor: pointer;">
+</a>
