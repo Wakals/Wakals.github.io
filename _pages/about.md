@@ -103,8 +103,8 @@ Sizhe Li, **Yiming Qin**, Minghang Zheng, Xin Jin, Yang Liu
   </div>
 </div>
 
-# 💣 Counter-Strike Highlights
+<!-- # 💣 Counter-Strike Highlights
 
 <a href="/videos/CSGO/dust2_5k.mp4" target="_blank">
   <img src="/videos/images/t.jpg" alt="Project Video" style="width: 100%; max-width: 250px; border-radius: 10px; cursor: pointer;">
-</a>
+</a> -->
