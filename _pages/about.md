@@ -21,7 +21,7 @@ I am currently a third-year undergraduate student at <a href='https://zhi-class.
 
 My research tenet is <em>Shut up and Calculate</em>.  My life tenet is <em>Be More Objective and Less Prejudiced</em>.
 
-My research interest inlucdes <strong>Computer Vision</strong> and <strong>Multimodal Learning</strong>, and especially focuses on <strong>Generative Model</strong> and <strong>3D Vision</strong>. If you have interesting ideas or questions, feel free to contact me! 📧
+My research interests primarily lie in <strong>Generative Models</strong> and <strong>Multimodal Learning</strong>. At this stage of my academic journey, my guiding philosophy is to <strong>empower artificial intelligence to create works of epic significance</strong>. If you have interesting ideas or questions, feel free to contact me! 📧
 
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=KK2hp8kAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span><<strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=KK2hp8kAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
