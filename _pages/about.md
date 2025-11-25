@@ -17,22 +17,36 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a third-year undergraduate student at <a href='https://zhi-class.ai/'>Zhi Class</a> of <a href='https://english.pku.edu.cn/'>Peking University (PKU)</a>, and I am also doing a research internship at <a href='https://www.icst.pku.edu.cn/index.htm'>Wangxuan Institute of Computer Technology (WICT)</a>, advised by Prof.<a href='http://www.csyangliu.com/'>Yang Liu</a>, and to collaborate with the great seniors <a href='https://sizhelee.github.io/'>Sizhe Lee</a> and Zhu Xu.
+I am currently a senior undergraduate student at the [Zhi Class](https://zhi-class.ai/) of [Peking University (PKU)](https://english.pku.edu.cn/). I am conducting research at [BAIR](https://bair.berkeley.edu), advised by [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/) and [XuDong Wang](https://people.eecs.berkeley.edu/~xdwang/).
 
-My research tenet is <em>Shut up and Calculate</em>.  My life tenet is <em>Be More Objective and Less Prejudiced</em>.
+Previously, I worked as a research intern at the [Wangxuan Institute of Computer Technology (WICT)](https://www.icst.pku.edu.cn/index.htm), advised by [Prof. Yang Liu](http://www.csyangliu.com/) and collaborating closely with the wonderful seniors [Sizhe Lee](https://sizhelee.github.io/) and Zhu Xu.
 
-My research interests primarily lie in <strong>Generative Models</strong> and <strong>Multimodal Learning</strong>. At this stage of my academic journey, my guiding philosophy is to <strong>empower artificial intelligence to create works of epic significance</strong>. If you have interesting ideas or questions, feel free to contact me! 📧
-
-<!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=KK2hp8kAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span><<strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=KK2hp8kAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
+My research interests lie primarily in <strong>Vision-Language Models</strong> and <strong>Generative Models</strong>. At this stage of my academic journey, my guiding aspiration is to <strong>empower artificial intelligence to create works of epic significance</strong>.  
+If you have interesting ideas or questions, feel free to reach out! 📧
 
 
 # 🔥 News
+- *2025.11*: &nbsp;🚀🚀 Our CoVT is released.
 - *2025.02*: &nbsp;🎉🎉 Our HCoG is accepted by CVPR 2025!
 - *2024.02*: &nbsp;🎉🎉 Our Diff-BGM is accepted by CVPR 2024!
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/HCoG.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/paper/CoVT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Chain-of-Visual-Thought: Teaching VLMs to See and Think Better with Continuous Visual Tokens](https://wakalsprojectpage.github.io/comt-website/)
+
+**Yiming Qin**, Bomin Wei, Jiaxin Ge, Konstantinos Kallidromitis, Stephanie Fu, Trevor Darrell, XuDong Wang
+
+[**\[Project Page\]**](https://wakalsprojectpage.github.io/comt-website/) &nbsp;
+[**\[Arxiv\]**](https://arxiv.org/abs/2511.19418) &nbsp;
+[**\[PDF\]**](https://wakalsprojectpage.github.io/comt-website/static/pdf/paper.pdf) &nbsp;
+[**\[code\]**](https://github.com/Wakals/CoVT)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/paper/HCoG.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Apply Hierarchical-Chain-of-Generation to Complex Attributes Text-to-3D Generation](https://hierarchical-chain-of-generation.github.io/)
@@ -40,14 +54,14 @@ My research interests primarily lie in <strong>Generative Models</strong> and <s
 **Yiming Qin**, Zhu Xu, Yang Liu
 
 [**\[Project Page\]**](https://hierarchical-chain-of-generation.github.io/) &nbsp;
+[**\[Arxiv\]**](https://arxiv.org/abs/2505.05505) &nbsp;
 [**\[PDF\]**](https://hierarchical-chain-of-generation.github.io/static/pdfs/paper.pdf) &nbsp;
 [**\[code\]**](https://github.com/Wakals/GASCOL)
-<!-- [**\[Project\]**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 - <strong>IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2025</strong>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/Diff-BGM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/paper/Diff-BGM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Diff-BGM: A Diffusion Model for Video Background Music Generation](https://arxiv.org/pdf/2405.11913)
@@ -65,6 +79,7 @@ Sizhe Li, **Yiming Qin**, Minghang Zheng, Xin Jin, Yang Liu
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
+- *2025* Yuanpei College Award for Research Excellence
 - *2023* Peking University Scholarship.
 - *2022* Peking University Freshman Scholarship.
 
@@ -76,7 +91,7 @@ Sizhe Li, **Yiming Qin**, Minghang Zheng, Xin Jin, Yang Liu
     <strong><a href="https://bair.berkeley.edu/">Berkeley AI Research (BAIR)</a></strong><br>
     <em>2025.01 - Present</em><br>
     <strong>Research Intern</strong><br>
-    Research Advisor: <a href="https://people.eecs.berkeley.edu/~xdwang/">Xudong Wang</a><br>
+    Research Advisor: <a href="https://people.eecs.berkeley.edu/~xdwang/">XuDong Wang</a><br>
     Academic Advisor: <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a>
   </div>
 </div>
