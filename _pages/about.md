@@ -35,11 +35,11 @@ If you have interesting ideas or questions, feel free to reach out! 📧
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/paper/CoVT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Chain-of-Visual-Thought: Teaching VLMs to See and Think Better with Continuous Visual Tokens](https://wakalsprojectpage.github.io/comt-website/)
+[Chain-of-Visual-Thought: Teaching VLMs to See and Think Better with Continuous Visual Tokens](https://wakalsprojectpage.github.io/covt-website/)
 
 **Yiming Qin**, Bomin Wei, Jiaxin Ge, Konstantinos Kallidromitis, Stephanie Fu, Trevor Darrell, XuDong Wang
 
-[**\[Project Page\]**](https://wakalsprojectpage.github.io/comt-website/) &nbsp;
+[**\[Project Page\]**](https://wakalsprojectpage.github.io/covt-website/) &nbsp;
 [**\[Arxiv\]**](https://arxiv.org/abs/2511.19418) &nbsp;
 [**\[PDF\]**](https://wakalsprojectpage.github.io/comt-website/static/pdf/paper.pdf) &nbsp;
 [**\[code\]**](https://github.com/Wakals/CoVT)
