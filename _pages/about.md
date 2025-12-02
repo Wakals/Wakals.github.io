@@ -17,12 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a senior undergraduate student at the [Zhi Class](https://zhi-class.ai/) of [Peking University (PKU)](https://english.pku.edu.cn/). I am conducting research at [BAIR](https://bair.berkeley.edu), advised by [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/) and [XuDong Wang](https://people.eecs.berkeley.edu/~xdwang/).
-
-Previously, I worked as a research intern at the [Wangxuan Institute of Computer Technology (WICT)](https://www.icst.pku.edu.cn/index.htm), advised by [Prof. Yang Liu](http://www.csyangliu.com/) and collaborating closely with the wonderful seniors [Sizhe Lee](https://sizhelee.github.io/) and Zhu Xu.
+I am currently a senior undergraduate student at the [Zhi Class](https://zhi-class.ai/) of [Peking University (PKU)](https://english.pku.edu.cn/). I am conducting research at [BAIR](https://bair.berkeley.edu), advised by [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/) and [XuDong Wang](https://people.eecs.berkeley.edu/~xdwang/). Previously, I worked as a research intern at the [Wangxuan Institute of Computer Technology (WICT)](https://www.icst.pku.edu.cn/index.htm), advised by [Prof. Yang Liu](http://www.csyangliu.com/) and collaborating closely with the wonderful seniors [Sizhe Lee](https://sizhelee.github.io/) and Zhu Xu.
 
 My research interests lie primarily in <strong>Vision-Language Models</strong> and <strong>Generative Models</strong>. At this stage of my academic journey, my guiding aspiration is to <strong>empower artificial intelligence to create works of epic significance</strong>.  
-If you have interesting ideas or questions, feel free to reach out! 📧
+
+My CV is [here](/docs/YimingQin-CV-1130.pdf). If you have interesting ideas or questions, feel free to reach out! 📧
 
 
 # 🔥 News
