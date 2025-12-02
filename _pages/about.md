@@ -21,7 +21,7 @@ I am currently a senior undergraduate student at the [Zhi Class](https://zhi-cla
 
 My research interests lie primarily in <strong>Vision-Language Models</strong> and <strong>Generative Models</strong>. At this stage of my academic journey, my guiding aspiration is to <strong>empower artificial intelligence to create works of epic significance</strong>.  
 
-My CV is [here](/docs/YimingQin-CV-1130.pdf). If you have interesting ideas or questions, feel free to reach out! 📧
+My CV is [here](/images/YimingQin-CV-1130.pdf). If you have interesting ideas or questions, feel free to reach out! 📧
 
 
 # 🔥 News
