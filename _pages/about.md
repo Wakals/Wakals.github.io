@@ -25,6 +25,7 @@ My CV is [here](/images/YimingQin-CV-1130.pdf). If you have interesting ideas or
 
 
 # 🔥 News
+- *2025.12*: &nbsp; Invited talk at [BAAI](https://event.baai.ac.cn/activities/982).
 - *2025.11*: &nbsp;🚀🚀 Our CoVT is released.
 - *2025.02*: &nbsp;🎉🎉 Our HCoG is accepted by CVPR 2025!
 - *2024.02*: &nbsp;🎉🎉 Our Diff-BGM is accepted by CVPR 2024!
@@ -78,7 +79,8 @@ Sizhe Li, **Yiming Qin**, Minghang Zheng, Xin Jin, Yang Liu
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
-- *2025* Yuanpei College Award for Research Excellence
+- *2025* Yuanpei College Award for Research Excellence.
+- *2024* Zhi Class Scholarship.
 - *2023* Peking University Scholarship.
 - *2022* Peking University Freshman Scholarship.
 
