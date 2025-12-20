@@ -68,6 +68,7 @@ My CV is [here](/images/YimingQin-CV-1130.pdf). If you have interesting ideas or
 
 Sizhe Li, **Yiming Qin**, Minghang Zheng, Xin Jin, Yang Liu
 
+[**\[Project Page\]**](https://sizhelee.github.io/publication/diffbgm.html) &nbsp;
 [**\[ArXiv\]**](https://arxiv.org/abs/2405.11913) &nbsp;
 [**\[PDF\]**](https://arxiv.org/pdf/2405.11913) &nbsp;
 [**\[code\]**](https://github.com/sizhelee/Diff-BGM)
