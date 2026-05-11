@@ -1,0 +1,39 @@
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+{% endif %}
+
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero__copy">
+    <div class="hero__eyebrow">Research · Vision–Language Models</div>
+    <h1 class="hero__title" id="hero-title">
+      {{ author.name | split: " (" | first }} <br>
+      <em>building visual intelligence.</em>
+    </h1>
+    <p class="hero__sub">
+      Senior undergraduate at the
+      <a href="https://zhi-class.ai/" target="_blank" rel="noopener">Zhi Class</a>,
+      <a href="https://english.pku.edu.cn/" target="_blank" rel="noopener">Peking University</a>.
+      Currently a research intern at
+      <a href="https://bair.berkeley.edu" target="_blank" rel="noopener">BAIR</a>,
+      advised by
+      <a href="https://people.eecs.berkeley.edu/~trevor/" target="_blank" rel="noopener">Trevor Darrell</a>
+      and
+      <a href="https://people.eecs.berkeley.edu/~xdwang/" target="_blank" rel="noopener">XuDong Wang</a>.
+      Working on <strong>vision–language models</strong> and <strong>generative models</strong>.
+    </p>
+    <div class="hero__meta">
+      <span><i class="dot-red"></i>{{ author.location }}</span>
+      <span><i class="dot-blue"></i><a href="mailto:{{ author.email }}" target="_self">{{ author.email }}</a></span>
+      <span><i class="dot-yellow"></i><a href="{{ author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a></span>
+    </div>
+  </div>
+
+  <div class="hero__art" aria-hidden="true">
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="d"></div>
+    <div class="e"></div>
+    <div class="pi-overlay">π</div>
+  </div>
+</section>

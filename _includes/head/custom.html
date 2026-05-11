@@ -3,12 +3,22 @@
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 <link rel="manifest" href="images/site.webmanifest">
 
-<meta name="msapplication-TileColor" content="#000000">
-<meta name="msapplication-TileImage" content="images/mstile-144x144.png?v=M44lzPylqQ">
-<meta name="msapplication-config" content="images/browserconfig.xml?v=M44lzPylqQ">
-<meta name="theme-color" content="#ffffff">
+<meta name="msapplication-TileColor" content="#FAFAF7">
+<meta name="theme-color" content="#FAFAF7">
+
+<!-- Fonts: pi.website-style editorial typography with mono accents -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,wght@0,400;0,500;1,400;1,500&display=swap">
+
+<!-- Academic icons (kept for parity with old template) -->
 <link rel="stylesheet" href="assets/css/academicons.css"/>
 
+<!-- Redesign stylesheet — loaded AFTER main.css so it wins the cascade -->
+<link rel="stylesheet" href="assets/css/redesign.css">
+
+<!-- MathJax (kept) -->
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
@@ -19,5 +29,4 @@
   });
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
-
 <!-- end custom head snippets -->

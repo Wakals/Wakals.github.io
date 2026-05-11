@@ -1,16 +1,23 @@
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
-          {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
+<header class="nav" role="banner">
+  <div class="nav__inner">
+    <a class="brand" href="#about-me" target="_self" aria-label="Yiming Qin — home">
+      <span class="brand__glyph" aria-hidden="true">
+        <i></i><i></i><i></i><i></i>
+      </span>
+      <span class="brand__name">Yiming Qin <span class="brand__pi">(π)</span></span>
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav__links">
+        <li><a href="#about-me"     target="_self">About</a></li>
+        <li><a href="#news"         target="_self">News</a></li>
+        <li><a href="#publications" target="_self">Publications</a></li>
+        <li><a href="#honors"       target="_self">Honors</a></li>
+        <li><a href="#education"    target="_self">Education</a></li>
+      </ul>
+    </nav>
+    <a class="nav__cta" href="/images/YimingQin-CV-1130.pdf" aria-label="Open CV">
+      <span>CV</span>
+      <span aria-hidden="true">↗</span>
+    </a>
   </div>
-</div>
+</header>
