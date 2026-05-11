@@ -550,3 +550,54 @@ body.redesign .skip:focus {
   body.redesign .edu__date { grid-column: 2; text-align: left; }
   body.redesign .hero__meta-row { grid-template-columns: 1fr; }
 }
+
+/* ---- Phone (≤ 520px) ---------------------------------------- */
+@media (max-width: 520px) {
+  :root { --pad: 18px; }
+
+  /* Nav: let it horizontally scroll instead of overflowing the viewport */
+  body.redesign .nav__inner { gap: 12px; padding: 12px var(--pad); }
+  body.redesign .nav__inner > nav {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  body.redesign .nav__inner > nav::-webkit-scrollbar { display: none; }
+  body.redesign .nav__links { gap: 16px; flex-wrap: nowrap; }
+  body.redesign .nav__links a { font-size: 13px; white-space: nowrap; }
+  body.redesign .brand__name { font-size: 14px; }
+
+  /* Hero: tighter and let the chinese name sit naturally */
+  body.redesign .hero { padding-top: 28px; padding-bottom: 28px; gap: 24px; }
+  body.redesign .hero__title { font-size: 34px; line-height: 1.08; }
+  body.redesign .name-cn { font-size: 0.42em; margin-left: 8px; vertical-align: 0.32em; }
+  body.redesign .hero__sub { font-size: 15px; }
+  body.redesign .hero__art { max-width: 200px; }
+  body.redesign .hero__meta-row { gap: 6px 16px; }
+
+  /* Section + content density */
+  body.redesign .section { padding-top: 32px; padding-bottom: 32px; }
+  body.redesign .section__head { margin-bottom: 22px; }
+  body.redesign .section__title { font-size: 24px; }
+  body.redesign .news li { padding: 14px 0; }
+  body.redesign .news__date { font-size: 11px; }
+  body.redesign .news__text { font-size: 14px; }
+  body.redesign .pub { padding: 14px; gap: 16px; }
+  body.redesign .pub__title { font-size: 16px; }
+  body.redesign .edu__item { padding: 16px 0; gap: 14px; }
+  body.redesign .edu__logo { width: 48px; height: 48px; }
+  body.redesign .edu__place { font-size: 15px; }
+  body.redesign .footer__inner { gap: 14px; }
+}
+
+/* ---- Touch devices: disable hover-only effects -------------- */
+@media (hover: none) {
+  body.redesign .news li:hover { padding-left: 0; }
+  body.redesign .news li:hover::before { width: 0; }
+  body.redesign .pub:hover::before { transform: scaleY(0); }
+  body.redesign .pub:hover .pub__media img { transform: none; }
+  body.redesign .hero__art:hover .a img { transform: none; }
+  body.redesign .hero__art:hover .b { background: var(--m-red); }
+  body.redesign .hero__art:hover .e { background: var(--m-blue); }
+  body.redesign .edu__item:hover { background: transparent; }
+}
