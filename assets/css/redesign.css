@@ -73,8 +73,8 @@ body.redesign h1, body.redesign h2, body.redesign h3, body.redesign h4 { font-fa
   --t-mid:  120ms cubic-bezier(.2,.6,.2,1);
 
   /* layout */
-  --max: 1180px;
-  --pad: clamp(20px, 4vw, 56px);
+  --max: 1080px;
+  --pad: clamp(24px, 5vw, 80px);
 }
 
 /* ---- Top nav --------------------------------------------------- */
