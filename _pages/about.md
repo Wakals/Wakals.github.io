@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-<span class='anchor' id='about-me'></span>
-
 <section class="section" id="news" aria-labelledby="news-title">
   <header class="section__head">
     <div class="section__num">01 — Recent</div>
