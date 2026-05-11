@@ -48,40 +48,41 @@
     });
   });
 
-  /* ---- 3. π cursor follower for interactive elements ----------- */
-  const pi = document.createElement('div');
-  pi.className = 'pi-cursor';
-  pi.textContent = 'π';
-  document.body.appendChild(pi);
+  /* ---- 3. Cursor follower — small snappy Mondrian block ------ */
+  const mark = document.createElement('div');
+  mark.className = 'cursor-mark';
+  document.body.appendChild(mark);
 
-  let px = 0, py = 0, tx = 0, ty = 0;
-  const onMove = (e) => {
-    tx = e.clientX + 14;
-    ty = e.clientY + 6;
+  let mx = 0, my = 0, tx = 0, ty = 0;
+  document.addEventListener('pointermove', (e) => {
+    tx = e.clientX; ty = e.clientY;
+    if (!mark.classList.contains('is-visible')) mark.classList.add('is-visible');
+  }, { passive: true });
+  document.addEventListener('pointerleave', () => mark.classList.remove('is-visible'));
+
+  // Snappy follow — high lerp factor, no slow drift
+  (function loop() {
+    mx += (tx - mx) * 0.5;
+    my += (ty - my) * 0.5;
+    mark.style.transform = `translate(${mx - 4}px, ${my - 4}px)`;
+    requestAnimationFrame(loop);
+  })();
+
+  // Context-aware color/shape: link / publication card / hero art
+  const matchClass = (el) => {
+    if (!el || !el.closest) return '';
+    if (el.closest('.hero__art')) return 'on-art';
+    if (el.closest('.pub'))       return 'on-pub';
+    if (el.closest('a, button'))  return 'on-link';
+    return '';
   };
-  document.addEventListener('pointermove', onMove, { passive: true });
-
-  // Follow with very short lag (snappy, not slow)
-  const tick = () => {
-    px += (tx - px) * 0.45;
-    py += (ty - py) * 0.45;
-    pi.style.transform = `translate(${px}px, ${py}px)`;
-    requestAnimationFrame(tick);
-  };
-  requestAnimationFrame(tick);
-
-  // Show only when hovering interactive elements
-  const interactiveSelector = 'a, button, .pub, .hero__art, .news li';
-  document.addEventListener('pointerover', e => {
-    if (e.target.closest(interactiveSelector)) body.classList.add('is-hovering-link');
-  });
-  document.addEventListener('pointerout', e => {
-    if (!e.relatedTarget || !e.relatedTarget.closest || !e.relatedTarget.closest(interactiveSelector)) {
-      body.classList.remove('is-hovering-link');
-    }
+  document.addEventListener('pointerover', (e) => {
+    const cls = matchClass(e.target);
+    mark.classList.remove('on-link', 'on-pub', 'on-art');
+    if (cls) mark.classList.add(cls);
   });
 
-  /* ---- 4. Brand glyph: click cycles accent rotation ----------- */
+  /* ---- 5. Brand glyph: click cycles accent rotation ----------- */
   const brand = document.querySelector('.brand');
   if (brand) {
     let n = 0;
@@ -93,7 +94,7 @@
     });
   }
 
-  /* ---- 5. Keyboard nav: press G then a digit to jump --------- */
+  /* ---- 6. Keyboard nav: press G then a digit to jump --------- */
   let armed = false, armedTimer = 0;
   document.addEventListener('keydown', e => {
     if (e.target.matches('input, textarea')) return;
