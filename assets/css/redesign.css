@@ -20,9 +20,11 @@ body.redesign #main {
   margin: 0 !important;
   max-width: none !important;
 }
-/* Disable the old #about-me negative-margin anchor hack */
-body.redesign #about-me { margin: 0 !important; }
-body.redesign #about-me::before { content: none !important; display: none !important; }
+/* Disable the old #about-me negative-margin anchor hack (legacy rule was
+   scoped to .page__content; keep override at the same specificity so it
+   doesn't accidentally hit the hero, which now carries id="about-me"). */
+body.redesign .page__content #about-me { margin: 0 !important; }
+body.redesign .page__content #about-me::before { content: none !important; display: none !important; }
 /* Disable the old global element transitions so our snappy ones win */
 body.redesign a, body.redesign span, body.redesign p, body.redesign img,
 body.redesign h1, body.redesign h2, body.redesign h3,
