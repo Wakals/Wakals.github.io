@@ -18,7 +18,7 @@ redirect_from:
     <li>
       <span class="news__date">2026 · 6</span>
       <span class="news__text">Our <strong>CoVT</strong> is accepted by <strong>ECCV&nbsp;2026</strong>.</span>
-      <span class="news__tag">Release</span>
+      <span class="news__tag">Accepted</span>
     </li>
     <li>
       <span class="news__date">2025 · 12</span>
@@ -54,7 +54,7 @@ redirect_from:
 
     <article class="pub">
       <a class="pub__media" href="https://wakalsprojectpage.github.io/covt-website/" target="_blank" rel="noopener" aria-label="CoVT project page">
-        <span class="pub__badge">ECCV 2026</span>
+        <span class="pub__badge is-eccv">ECCV 2026</span>
         <img src="images/paper/CoVT_method.png" alt="CoVT method overview">
       </a>
       <div class="pub__body">

@@ -377,8 +377,9 @@ body.redesign .pub__badge {
   padding: 4px 8px;
   background: var(--m-black); color: #fff;
 }
-body.redesign .pub__badge.is-preprint { background: var(--m-blue); }
-body.redesign .pub__badge.is-cvpr     { background: var(--m-red); }
+body.redesign .pub__badge.is-preprint { background: var(--m-red); }
+body.redesign .pub__badge.is-cvpr     { background: var(--m-blue); }
+body.redesign .pub__badge.is-eccv { background: var(--m-black); }
 
 body.redesign .pub__body { display: flex; flex-direction: column; gap: 8px; }
 body.redesign .pub__title {
@@ -488,29 +489,6 @@ body.redesign .footer__links a {
   position: relative;
 }
 body.redesign .footer__links a:hover { color: var(--ink); }
-
-/* ---- Cursor follower (small Mondrian-style block) ------------ */
-body.redesign .cursor-mark {
-  position: fixed; left: 0; top: 0;
-  width: 8px; height: 8px;
-  background: var(--m-black);
-  pointer-events: none; z-index: 100;
-  transform: translate(-9999px, -9999px) rotate(0deg);
-  transition:
-    width 80ms cubic-bezier(.2,.6,.2,1),
-    height 80ms cubic-bezier(.2,.6,.2,1),
-    background 80ms cubic-bezier(.2,.6,.2,1),
-    border-radius 80ms cubic-bezier(.2,.6,.2,1),
-    opacity 100ms ease-out;
-  opacity: 0;
-  will-change: transform;
-  mix-blend-mode: difference;
-}
-body.redesign .cursor-mark.is-visible { opacity: 1; }
-body.redesign .cursor-mark.on-link    { width: 16px; height: 16px; background: var(--m-red); }
-body.redesign .cursor-mark.on-pub     { width: 18px; height: 18px; background: var(--m-blue); }
-body.redesign .cursor-mark.on-art     { width: 22px; height: 22px; background: var(--m-yellow); border-radius: 50%; }
-@media (pointer: coarse) { body.redesign .cursor-mark { display: none; } }
 
 /* ---- Misc ----------------------------------------------------- */
 body.redesign .skip {
