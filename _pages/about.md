@@ -16,6 +16,11 @@ redirect_from:
   </header>
   <ul class="news">
     <li>
+      <span class="news__date">2026 · 6</span>
+      <span class="news__text">Our <strong>CoVT</strong> is accepted by <strong>ECCV&nbsp;2026</strong>.</span>
+      <span class="news__tag">Release</span>
+    </li>
+    <li>
       <span class="news__date">2025 · 12</span>
       <span class="news__text">Invited talk at <a href="https://event.baai.ac.cn/activities/982" target="_blank" rel="noopener">BAAI</a>.</span>
       <span class="news__tag">Talk</span>
@@ -49,7 +54,7 @@ redirect_from:
 
     <article class="pub">
       <a class="pub__media" href="https://wakalsprojectpage.github.io/covt-website/" target="_blank" rel="noopener" aria-label="CoVT project page">
-        <span class="pub__badge is-preprint">Preprint</span>
+        <span class="pub__badge">ECCV 2026</span>
         <img src="images/paper/CoVT_method.png" alt="CoVT method overview">
       </a>
       <div class="pub__body">
@@ -59,7 +64,7 @@ redirect_from:
           </a>
         </h3>
         <p class="pub__authors"><strong>Yiming Qin</strong>, Bomin Wei, Jiaxin Ge, Konstantinos Kallidromitis, Stephanie Fu, Trevor Darrell, XuDong Wang</p>
-        <div class="pub__venue">2025 · Preprint</div>
+        <div class="pub__venue">2026 · ECCV</div>
         <div class="pub__links">
           <a href="https://wakalsprojectpage.github.io/covt-website/" target="_blank" rel="noopener">Project</a>
           <a href="https://arxiv.org/abs/2511.19418" target="_blank" rel="noopener">arXiv</a>
