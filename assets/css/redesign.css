@@ -368,6 +368,7 @@ body.redesign .pub__media img {
   width: 100%; height: 100%; object-fit: cover;
   transition: transform var(--t-mid);
 }
+body.redesign .pub__media--contain img { object-fit: contain; }
 body.redesign .pub:hover .pub__media img { transform: scale(1.03); }
 
 body.redesign .pub__badge {

@@ -53,6 +53,19 @@ redirect_from:
   <div class="pubs">
 
     <article class="pub">
+      <div class="pub__media pub__media--contain">
+        <img src="images/paper/GReaL.png" alt="GReaL method overview">
+      </div>
+      <div class="pub__body">
+        <h3 class="pub__title">
+          GReaL: Grounded Rendered Latents for Efficient Reasoning
+        </h3>
+        <p class="pub__authors"><strong>Yiming Qin</strong>, Zhu Xu, Minghang Zheng, Yang Liu</p>
+        <div class="pub__venue">Under Review</div>
+      </div>
+    </article>
+
+    <article class="pub">
       <a class="pub__media" href="https://wakalsprojectpage.github.io/covt-website/" target="_blank" rel="noopener" aria-label="CoVT project page">
         <span class="pub__badge is-eccv">ECCV 2026</span>
         <img src="images/paper/CoVT_method.png" alt="CoVT method overview">
@@ -64,7 +77,7 @@ redirect_from:
           </a>
         </h3>
         <p class="pub__authors"><strong>Yiming Qin</strong>, Bomin Wei, Jiaxin Ge, Konstantinos Kallidromitis, Stephanie Fu, Trevor Darrell, XuDong Wang</p>
-        <div class="pub__venue">2026 · ECCV</div>
+        <div class="pub__venue">ECCV 2026</div>
         <div class="pub__links">
           <a href="https://wakalsprojectpage.github.io/covt-website/" target="_blank" rel="noopener">Project</a>
           <a href="https://arxiv.org/abs/2511.19418" target="_blank" rel="noopener">arXiv</a>
