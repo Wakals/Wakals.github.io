@@ -15,7 +15,7 @@
 <link rel="stylesheet" href="assets/css/academicons.css"/>
 
 <!-- Redesign stylesheet — loaded AFTER main.css so it wins the cascade -->
-<link rel="stylesheet" href="assets/css/redesign.css">
+<link rel="stylesheet" href="{{ '/assets/css/redesign.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 
 <!-- MathJax (kept) -->
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>

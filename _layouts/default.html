@@ -29,6 +29,6 @@ layout: compress
     {% include footer.html %}
 
     {% include scripts.html %}
-    <script src="assets/js/redesign.js" defer></script>
+    <script src="{{ '/assets/js/redesign.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
   </body>
 </html>
