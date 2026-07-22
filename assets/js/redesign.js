@@ -34,7 +34,67 @@
     setActive();
   }
 
-  /* ---- 2. Smooth-instant nav clicks: short scroll, no jump ----- */
+  /* ---- 2. Scroll-driven portrait dissolve -------------------- */
+  const portrait = document.querySelector('[data-scroll-portrait]');
+  if (portrait) {
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let transitionStart = 16;
+    let transitionDistance = 240;
+    let portraitTicking = false;
+
+    const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
+    const smoothstep = value => value * value * (3 - (2 * value));
+
+    const measurePortrait = () => {
+      const rect = portrait.getBoundingClientRect();
+      const portraitTop = rect.top + window.scrollY;
+      const viewportHeight = window.innerHeight;
+
+      transitionStart = portraitTop <= viewportHeight * 0.72
+        ? 16
+        : Math.max(16, portraitTop - (viewportHeight * 0.78));
+      transitionDistance = clamp(viewportHeight * 0.32, 200, 320);
+    };
+
+    const updatePortrait = () => {
+      const rawProgress = clamp((window.scrollY - transitionStart) / transitionDistance, 0, 1);
+      const progress = smoothstep(rawProgress);
+      const motion = prefersReducedMotion.matches ? 0 : 1;
+      const midpointGlow = Math.sin(progress * Math.PI) * 0.32;
+
+      portrait.style.setProperty('--portrait-primary-opacity', (1 - progress).toFixed(4));
+      portrait.style.setProperty('--portrait-secondary-opacity', progress.toFixed(4));
+      portrait.style.setProperty('--portrait-primary-scale', (1 + (progress * 0.035 * motion)).toFixed(4));
+      portrait.style.setProperty('--portrait-secondary-scale', (1.055 - (progress * 0.035 * motion)).toFixed(4));
+      portrait.style.setProperty('--portrait-primary-y', `${(-progress * 5 * motion).toFixed(3)}%`);
+      portrait.style.setProperty('--portrait-secondary-y', `${((1 - progress) * 5 * motion).toFixed(3)}%`);
+      portrait.style.setProperty('--portrait-wash-opacity', midpointGlow.toFixed(4));
+      portraitTicking = false;
+    };
+
+    const requestPortraitUpdate = () => {
+      if (portraitTicking) return;
+      portraitTicking = true;
+      requestAnimationFrame(updatePortrait);
+    };
+
+    const remeasurePortrait = () => {
+      measurePortrait();
+      requestPortraitUpdate();
+    };
+
+    window.addEventListener('scroll', requestPortraitUpdate, { passive: true });
+    window.addEventListener('resize', remeasurePortrait, { passive: true });
+    if (typeof prefersReducedMotion.addEventListener === 'function') {
+      prefersReducedMotion.addEventListener('change', requestPortraitUpdate);
+    } else {
+      prefersReducedMotion.addListener(requestPortraitUpdate);
+    }
+    measurePortrait();
+    updatePortrait();
+  }
+
+  /* ---- 3. Smooth-instant nav clicks: short scroll, no jump ----- */
   document.querySelectorAll('a[href^="#"]').forEach(a => {
     a.addEventListener('click', e => {
       const id = a.getAttribute('href').slice(1);
@@ -48,7 +108,7 @@
     });
   });
 
-  /* ---- 3. Brand glyph: click cycles accent rotation ----------- */
+  /* ---- 4. Brand glyph: click cycles accent rotation ----------- */
   const brand = document.querySelector('.brand');
   if (brand) {
     let n = 0;
@@ -60,7 +120,7 @@
     });
   }
 
-  /* ---- 4. Keyboard nav: press G then a digit to jump --------- */
+  /* ---- 5. Keyboard nav: press G then a digit to jump --------- */
   let armed = false, armedTimer = 0;
   document.addEventListener('keydown', e => {
     if (e.target.matches('input, textarea')) return;

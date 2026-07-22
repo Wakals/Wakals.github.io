@@ -252,13 +252,57 @@ body.redesign .hero__art {
 body.redesign .hero__art > * { border: 1px solid var(--m-black); }
 body.redesign .hero__art .a {
   grid-column: 1; grid-row: 1 / span 2;
+  position: relative;
+  isolation: isolate;
   background: #fff; padding: 0; overflow: hidden;
+  --portrait-primary-opacity: 1;
+  --portrait-secondary-opacity: 0;
+  --portrait-primary-scale: 1;
+  --portrait-secondary-scale: 1.055;
+  --portrait-primary-y: 0%;
+  --portrait-secondary-y: 5%;
+  --portrait-wash-opacity: 0;
 }
-body.redesign .hero__art .a img {
-  width: 100%; height: 100%; object-fit: cover; display: block;
+body.redesign .portrait__track {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
   transition: transform var(--t-mid);
 }
-body.redesign .hero__art:hover .a img { transform: scale(1.04); }
+body.redesign .portrait__image {
+  position: absolute;
+  inset: 0;
+  width: 100%; height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  will-change: opacity, transform;
+  backface-visibility: hidden;
+}
+body.redesign .portrait__image--primary {
+  z-index: 1;
+  opacity: var(--portrait-primary-opacity);
+  transform: translate3d(0, var(--portrait-primary-y), 0) scale(var(--portrait-primary-scale));
+}
+body.redesign .portrait__image--secondary {
+  z-index: 2;
+  opacity: var(--portrait-secondary-opacity);
+  transform: translate3d(0, var(--portrait-secondary-y), 0) scale(var(--portrait-secondary-scale));
+}
+body.redesign .portrait__wash {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  opacity: var(--portrait-wash-opacity);
+  background:
+    linear-gradient(145deg, rgba(245,197,24,.20), transparent 44%),
+    linear-gradient(325deg, rgba(29,63,140,.16), transparent 48%);
+  mix-blend-mode: soft-light;
+  will-change: opacity;
+}
+body.redesign .hero__art:hover .portrait__track { transform: scale(1.025); }
 body.redesign .hero__art .b { grid-column: 2; grid-row: 1; background: var(--m-red); }
 body.redesign .hero__art .c { grid-column: 2; grid-row: 2; background: #fff; }
 body.redesign .hero__art .d { grid-column: 1; grid-row: 3; background: var(--m-yellow); }
@@ -577,7 +621,7 @@ body.redesign .skip:focus {
   body.redesign .news li:hover::before { width: 0; }
   body.redesign .pub:hover::before { transform: scaleY(0); }
   body.redesign .pub:hover .pub__media img { transform: none; }
-  body.redesign .hero__art:hover .a img { transform: none; }
+  body.redesign .hero__art:hover .portrait__track { transform: none; }
   body.redesign .hero__art:hover .b { background: var(--m-red); }
   body.redesign .hero__art:hover .e { background: var(--m-blue); }
   body.redesign .edu__item:hover { background: transparent; }
