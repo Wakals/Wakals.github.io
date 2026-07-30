@@ -77,7 +77,7 @@ redirect_from:
           </a>
         </h3>
         <p class="pub__authors"><strong>Yiming Qin</strong>, Bomin Wei, Jiaxin Ge, Konstantinos Kallidromitis, Stephanie Fu, Trevor Darrell, XuDong Wang</p>
-        <div class="pub__venue">ECCV 2026</div>
+        <div class="pub__venue">ECCV 2026 (Oral Presentation)</div>
         <div class="pub__links">
           <a href="https://wakalsprojectpage.github.io/covt-website/" target="_blank" rel="noopener">Project</a>
           <a href="https://arxiv.org/abs/2511.19418" target="_blank" rel="noopener">arXiv</a>
