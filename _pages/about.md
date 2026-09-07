@@ -172,7 +172,7 @@ redirect_from:
           &amp; <a href="https://people.eecs.berkeley.edu/~trevor/" target="_blank" rel="noopener">Trevor Darrell</a>
         </div>
       </div>
-      <div class="edu__date">2025.01 — Present</div>
+      <div class="edu__date">2025.01 — 2026.01</div>
     </div>
 
     <div class="edu__item">
