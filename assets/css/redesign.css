@@ -495,13 +495,6 @@ body.redesign .edu__logo {
   background: #fff; border: 1px solid var(--line);
 }
 body.redesign .edu__logo img { width: 100%; height: 100%; object-fit: contain; padding: 6px; }
-body.redesign .edu__logo--duke {
-  color: #012169;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: .08em;
-}
 body.redesign .edu__body { display: flex; flex-direction: column; gap: 4px; }
 body.redesign .edu__place { font-size: 17px; font-weight: 600; letter-spacing: -0.01em; }
 body.redesign .edu__role  { font-size: 14px; color: var(--ink-2); }

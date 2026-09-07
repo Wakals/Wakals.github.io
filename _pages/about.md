@@ -151,7 +151,7 @@ redirect_from:
   </header>
   <div class="edu">
     <div class="edu__item">
-      <div class="edu__logo edu__logo--duke" aria-hidden="true">DUKE</div>
+      <div class="edu__logo"><img src="images/Duke.png" alt="Duke University"></div>
       <div class="edu__body">
         <div class="edu__place"><a href="https://www.duke.edu/" target="_blank" rel="noopener">Duke University</a></div>
         <div class="edu__role">
