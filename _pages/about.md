@@ -156,6 +156,18 @@ redirect_from:
   </header>
   <div class="edu">
     <div class="edu__item">
+      <div class="edu__logo edu__logo--duke" aria-hidden="true">DUKE</div>
+      <div class="edu__body">
+        <div class="edu__place"><a href="https://www.duke.edu/" target="_blank" rel="noopener">Duke University</a></div>
+        <div class="edu__role">
+          Ph.D. Student, Electrical and Computer Engineering <em>·</em>
+          advised by <a href="https://people.eecs.berkeley.edu/~xdwang/" target="_blank" rel="noopener">Xudong Wang</a>
+        </div>
+      </div>
+      <div class="edu__date">2026.08 — Present</div>
+    </div>
+
+    <div class="edu__item">
       <div class="edu__logo"><img src="images/BAIR_Logo.png" alt="BAIR"></div>
       <div class="edu__body">
         <div class="edu__place"><a href="https://bair.berkeley.edu/" target="_blank" rel="noopener">Berkeley AI Research (BAIR)</a></div>
@@ -182,12 +194,12 @@ redirect_from:
       <div class="edu__body">
         <div class="edu__place"><a href="https://english.pku.edu.cn/" target="_blank" rel="noopener">Peking University</a></div>
         <div class="edu__role">
-          Undergraduate, Zhi Class <em>·</em>
+          Bachelor's Degree, Zhi Class <em>·</em>
           advised by <a href="http://www.csyangliu.com/" target="_blank" rel="noopener">Yang Liu</a>
           &amp; <a href="https://baoquanchen.info/" target="_blank" rel="noopener">Baoquan Chen</a>
         </div>
       </div>
-      <div class="edu__date">2022.09 — Present</div>
+      <div class="edu__date">2022.09 — 2026.06</div>
     </div>
   </div>
 </section>

@@ -23,8 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yiming Qin (Wakals)"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Peking University"
-  location         : "Beijing, China"
+  bio              : "Duke University"
+  location         : "Durham, NC"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=KK2hp8kAAAAJ"
@@ -136,7 +136,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
