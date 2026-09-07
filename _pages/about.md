@@ -17,18 +17,13 @@ redirect_from:
   <ul class="news">
     <li>
       <span class="news__date">2026 · 6</span>
-      <span class="news__text">Our <strong>CoVT</strong> is accepted by <strong>ECCV&nbsp;2026</strong>.</span>
-      <span class="news__tag">Accepted</span>
+      <span class="news__text">Our <strong>CoVT</strong> is accepted by <strong>ECCV&nbsp;2026</strong> and selected for an <strong>Oral Presentation</strong>.</span>
+      <span class="news__tag">Oral</span>
     </li>
     <li>
       <span class="news__date">2025 · 12</span>
       <span class="news__text">Invited talk at <a href="https://event.baai.ac.cn/activities/982" target="_blank" rel="noopener">BAAI</a>.</span>
       <span class="news__tag">Talk</span>
-    </li>
-    <li>
-      <span class="news__date">2025 · 11</span>
-      <span class="news__text">Our <strong>CoVT</strong> (Chain-of-Visual-Thought) is released.</span>
-      <span class="news__tag">Release</span>
     </li>
     <li>
       <span class="news__date">2025 · 02</span>
