@@ -155,16 +155,6 @@ body.redesign .hero {
   gap: clamp(24px, 5vw, 56px);
   align-items: end;
 }
-body.redesign .hero__eyebrow {
-  font-family: var(--font-mono);
-  font-size: 12px; letter-spacing: .04em; text-transform: uppercase;
-  color: var(--mute);
-  display: inline-flex; align-items: center; gap: 10px;
-  margin-bottom: 22px;
-}
-body.redesign .hero__eyebrow::before {
-  content: ""; width: 24px; height: 1px; background: var(--ink);
-}
 body.redesign .hero__title {
   font-family: var(--font-sans);
   font-weight: 700;
@@ -337,12 +327,6 @@ body.redesign .section__title {
   letter-spacing: -0.02em;
   margin: 0;
 }
-body.redesign .section__hint {
-  font-family: var(--font-mono);
-  font-size: 11px; color: var(--mute);
-  text-transform: uppercase; letter-spacing: .08em;
-}
-
 /* ---- News ----------------------------------------------------- */
 body.redesign .news {
   list-style: none; padding: 0; margin: 0;
@@ -563,7 +547,6 @@ body.redesign .skip:focus {
   }
   body.redesign .hero__art { max-width: 240px; justify-self: start; }
   body.redesign .section__head { grid-template-columns: 1fr; gap: 6px; }
-  body.redesign .section__hint { display: none; }
   body.redesign .news li { grid-template-columns: 90px 1fr; }
   body.redesign .news__tag { display: none; }
   body.redesign .pub { grid-template-columns: 1fr; }

@@ -12,7 +12,6 @@ redirect_from:
   <header class="section__head">
     <div class="section__num">01 — Recent</div>
     <h2 class="section__title" id="news-title">News</h2>
-    <div class="section__hint">latest first</div>
   </header>
   <ul class="news">
     <li>
@@ -42,7 +41,6 @@ redirect_from:
   <header class="section__head">
     <div class="section__num">02 — Selected</div>
     <h2 class="section__title" id="pubs-title">Publications</h2>
-    <div class="section__hint">peer-reviewed &amp; preprints</div>
   </header>
 
   <div class="pubs">
@@ -133,7 +131,6 @@ redirect_from:
   <header class="section__head">
     <div class="section__num">03 — Recognition</div>
     <h2 class="section__title" id="honors-title">Honors &amp; Awards</h2>
-    <div class="section__hint">selected</div>
   </header>
   <div class="honors">
     <div class="honor"><span class="honor__year">2025</span><span class="honor__text">Yuanpei College Award for Research Excellence</span></div>
@@ -147,7 +144,6 @@ redirect_from:
   <header class="section__head">
     <div class="section__num">04 — Trajectory</div>
     <h2 class="section__title" id="edu-title">Education</h2>
-    <div class="section__hint">most recent first</div>
   </header>
   <div class="edu">
     <div class="edu__item">
