@@ -45,6 +45,8 @@ redirect_from:
 
   <div class="pubs">
 
+    {% comment %} Temporarily hidden: GReaL {% endcomment %}
+    {% comment %}
     <article class="pub">
       <div class="pub__media pub__media--contain">
         <img src="images/paper/GReaL.png" alt="GReaL method overview">
@@ -57,6 +59,7 @@ redirect_from:
         <div class="pub__venue">Under Review</div>
       </div>
     </article>
+    {% endcomment %}
 
     <article class="pub">
       <a class="pub__media" href="https://wakalsprojectpage.github.io/covt-website/" target="_blank" rel="noopener" aria-label="CoVT project page">
