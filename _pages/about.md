@@ -48,7 +48,7 @@ redirect_from:
     <article class="pub">
       <a class="pub__media pub__media--contain" href="https://omni-taskonomy.github.io/" target="_blank" rel="noopener" aria-label="OmniTaskonomy project page">
         <span class="pub__badge is-preprint">arXiv 2026</span>
-        <img src="images/paper/OmniTaskonomy.gif" alt="OmniTaskonomy animation illustrating visual generation and visual understanding" width="1120" height="310" loading="lazy" decoding="async">
+        <img src="images/paper/OmniTaskonomy.jpg" alt="OmniTaskonomy overview of transfer between visual generation and visual understanding tasks" width="1280" height="720" loading="lazy" decoding="async">
       </a>
       <div class="pub__body">
         <h3 class="pub__title">
