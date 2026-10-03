@@ -56,8 +56,8 @@ redirect_from:
             OmniTaskonomy: When Does Visual Generation Improve Visual Understanding
           </a>
         </h3>
-        <p class="pub__authors">Jiaxin Ge<sup>*</sup>, <strong>Yiming Qin<sup>*</sup></strong>, Ji Xie, Haozhe Jiang, Xiaochuang Han, Junyi Zhang, Andrew Dai, Yinfei Yang, Jitendra Malik, Ranjay Krishna, Sewon Min, Haiwen Feng, Le Xue, Baifeng Shi, Trevor Darrell, XuDong Wang</p>
-        <div class="pub__venue">Preprint, 2026 &middot; * Equal contribution</div>
+        <p class="pub__authors">Jiaxin Ge<sup>*</sup>, <strong>Yiming Qin<sup>*</sup></strong>, Ji Xie, Haozhe Jiang, Xiaochuang Han, Junyi Zhang, Andrew Dai, Yinfei Yang, Jitendra Malik, Ranjay Krishna, Sewon Min, Haiwen Feng<sup>†</sup>, Le Xue<sup>†</sup>, Baifeng Shi<sup>†</sup>, Trevor Darrell<sup>†</sup>, XuDong Wang<sup>†</sup></p>
+        <div class="pub__venue">Preprint</div>
         <div class="pub__links">
           <a href="https://omni-taskonomy.github.io/" target="_blank" rel="noopener">Project</a>
           <a href="https://arxiv.org/abs/2609.38079" target="_blank" rel="noopener">arXiv</a>
