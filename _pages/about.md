@@ -45,6 +45,28 @@ redirect_from:
 
   <div class="pubs">
 
+    <article class="pub">
+      <a class="pub__media pub__media--contain" href="https://omni-taskonomy.github.io/" target="_blank" rel="noopener" aria-label="OmniTaskonomy project page">
+        <span class="pub__badge is-preprint">arXiv 2026</span>
+        <img src="images/paper/OmniTaskonomy.gif" alt="OmniTaskonomy animation illustrating visual generation and visual understanding" width="1120" height="310" loading="lazy" decoding="async">
+      </a>
+      <div class="pub__body">
+        <h3 class="pub__title">
+          <a href="https://omni-taskonomy.github.io/" target="_blank" rel="noopener">
+            OmniTaskonomy: When Does Visual Generation Improve Visual Understanding
+          </a>
+        </h3>
+        <p class="pub__authors">Jiaxin Ge<sup>*</sup>, <strong>Yiming Qin<sup>*</sup></strong>, Ji Xie, Haozhe Jiang, Xiaochuang Han, Junyi Zhang, Andrew Dai, Yinfei Yang, Jitendra Malik, Ranjay Krishna, Sewon Min, Haiwen Feng, Le Xue, Baifeng Shi, Trevor Darrell, XuDong Wang</p>
+        <div class="pub__venue">Preprint, 2026 &middot; * Equal contribution</div>
+        <div class="pub__links">
+          <a href="https://omni-taskonomy.github.io/" target="_blank" rel="noopener">Project</a>
+          <a href="https://arxiv.org/abs/2609.38079" target="_blank" rel="noopener">arXiv</a>
+          <a href="https://github.com/para-lost/OmniTaskonomy/tree/main" target="_blank" rel="noopener">Code</a>
+          <a href="https://huggingface.co/collections/Wakals/omnitaskonomy" target="_blank" rel="noopener" aria-label="OmniTaskonomy on Hugging Face">HF</a>
+        </div>
+      </div>
+    </article>
+
     {% comment %} Temporarily hidden: GReaL {% endcomment %}
     {% comment %}
     <article class="pub">
@@ -77,8 +99,8 @@ redirect_from:
         <div class="pub__links">
           <a href="https://wakalsprojectpage.github.io/covt-website/" target="_blank" rel="noopener">Project</a>
           <a href="https://arxiv.org/abs/2511.19418" target="_blank" rel="noopener">arXiv</a>
-          <a href="https://wakalsprojectpage.github.io/comt-website/static/pdf/paper.pdf" target="_blank" rel="noopener">PDF</a>
           <a href="https://github.com/Wakals/CoVT" target="_blank" rel="noopener">Code</a>
+          <a href="https://huggingface.co/collections/Wakals/covt-chain-of-visual-thought" target="_blank" rel="noopener" aria-label="CoVT on Hugging Face">HF</a>
         </div>
       </div>
     </article>
@@ -99,7 +121,6 @@ redirect_from:
         <div class="pub__links">
           <a href="https://hierarchical-chain-of-generation.github.io/" target="_blank" rel="noopener">Project</a>
           <a href="https://arxiv.org/abs/2505.05505" target="_blank" rel="noopener">arXiv</a>
-          <a href="https://hierarchical-chain-of-generation.github.io/static/pdfs/paper.pdf" target="_blank" rel="noopener">PDF</a>
           <a href="https://github.com/Wakals/GASCOL" target="_blank" rel="noopener">Code</a>
         </div>
       </div>
@@ -121,7 +142,6 @@ redirect_from:
         <div class="pub__links">
           <a href="https://sizhelee.github.io/publication/diffbgm.html" target="_blank" rel="noopener">Project</a>
           <a href="https://arxiv.org/abs/2405.11913" target="_blank" rel="noopener">arXiv</a>
-          <a href="https://arxiv.org/pdf/2405.11913" target="_blank" rel="noopener">PDF</a>
           <a href="https://github.com/sizhelee/Diff-BGM" target="_blank" rel="noopener">Code</a>
         </div>
       </div>
